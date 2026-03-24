@@ -3,7 +3,7 @@ def check_triangle(a, b, c):
         if a == b and a == c:
             result = "Triangulo equilatero"
             print("Triangulo equilatero \n")
-        elif a == b or b == c:
+        elif a == b or b == c or a == c:
             result = "Triangulo isosceles"
             print("Triangulo isosceles \n")
         else:
